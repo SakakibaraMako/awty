@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">awty</string>
+    <string name="message_label">Message:</string>
+    <string name="phone_number_label">Phone Number:</string>
+    <string name="time_label">Time Interval:</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_stop">Stop</string>
+</resources>
