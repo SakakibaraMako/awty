@@ -122,9 +122,7 @@ class MainActivity : AppCompatActivity() {
             PendingIntent.FLAG_IMMUTABLE)
         alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, time, interval, pendingIntent)
         /* need to distinguish two intents; otherwise the intent received by onReceive does not change.
-           Two ways:
            Changing requestCode every time.
-           Adding PendingIntent.FLAG_ONE_SHOT to automatically cancel a PendingIntent once it calls send()
          */
         requestCode += 1
         btn.text = STOP
